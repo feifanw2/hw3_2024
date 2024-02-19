@@ -55,7 +55,6 @@ nav a{
 
 .skip a{
   background-color: white;
-  color: black;
   left: 0;
   padding: 6px;
   -webkit-transition: top 1s ease-out;
@@ -119,7 +118,7 @@ nav a:hover {
   width:1px;
   height:1px;
   overflow:hidden;
-  z-index:-1;
+  z-index:1;
 }
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
@@ -128,7 +127,7 @@ nav a:hover {
   top: 20px;
   color:black;
   overflow:visible;
-  z-index:1;
+  z-index:2;
 }
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
